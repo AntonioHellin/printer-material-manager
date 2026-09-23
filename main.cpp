@@ -1,3 +1,8 @@
+/**
+ * @file main.cpp
+ * @brief Application entry point for 3D Printer Material Profile Manager.
+ */
+
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
 
@@ -7,6 +12,9 @@ int main(int argc, char *argv[])
 
     QQmlApplicationEngine engine;
     engine.load(QUrl(QStringLiteral("qrc:/main.qml")));
+    if (engine.rootObjects().isEmpty()) {
+        return -1;
+    }
 
     return app.exec();
 }

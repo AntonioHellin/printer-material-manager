@@ -1,0 +1,51 @@
+# C++ and object files
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+
+# Executables
+*.exe
+*.app
+
+# Qt Creator and QMake generated files
+*.pro.user
+*.pro.user.*
+*.qmake.stash
+.qmake.cache
+Makefile*
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+
+# Qt Shadow build directories
+build-*
+debug/
+release/
+
+# MSVC / Visual Studio artifacts
+*.ilk
+*.pdb
+*.idb
+*.exp
+vc*.pdb
+.vs/
+
+# Environment files
+.env
+.env.local
+
+# IDE files
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
