@@ -28,7 +28,7 @@ A Qt Quick / QML desktop application and API client for managing, inspecting, an
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/AntonioHellin/getMaterialsGcode.git printer-material-manager
+   git clone https://github.com/AntonioHellin/printer-material-manager.git
    cd printer-material-manager
    ```
 
