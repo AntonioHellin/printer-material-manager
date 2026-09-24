@@ -60,7 +60,3 @@ The application connects by default to a local printer daemon:
 3. Click **Get Materials** to fetch and list all registered filament profiles.
 4. Click on any individual material item to view its details (Extruder Temperature, Bed Temperature, Material Type).
 5. Use **Back** to return to the catalog or **Delete** to remove a profile.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
